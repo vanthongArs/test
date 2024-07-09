@@ -1,0 +1,9 @@
+name: My sample Workflow
+on: push
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ubuntu-latest
+        run: ls
+    
